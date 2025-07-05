@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+
+<body>
+
+    <section id="phone">
+        <div class="main-container">
+            <h1 class="warning">-- WARNING --</h1>
+            <p class="main-container-p"><span>O</span>ops! there is a problem you can't axis this site on your phone. <i class="fa-regular fa-face-frown"></i></p>
+            <p class="p-1">Use your laptop to access it.</p>
+            <div class="note">
+            <span>NOTE :- </span>
+            <p>Don't open it on any phone or TV. Use only laptop.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="navbar">
+        <h3>Port<span>folio</span></h3>
+        <div class="navdiv">
+            <div id="item"><a href="#one">Home</a></div>
+            <div id="item"><a href="#two">About</a></div>
+            <div id="item"><a href="#three">Skill</a></div>
+            <div id="item"><a href="#four">Contact</a></div>
+        </div>
+    </div>
+    <section id="one">
+        <div id="box1">
+            <div id="home-box-1">
+                <div id="home-box-2"></div>
+                <div id="home-box-3">
+                    <p id="welcome-p">WELCOME TO MY WORLD</p>
+                    <h1>Hi I'm <span>Abhay Singh Gautam</span></h1>
+                    <h2 class="typing-text">I'm a <span class="typing-text-script"></span></h2>
+                    <p>Obtain a challenging position in a reputable organization where I can utilize my technical
+                        skills, problem-solving abilities, and passion for software development to contribute to
+                        innovative projects and grow as a Computer Science Engineer.</p>
+                    <div>
+                        <button class="btn" id="button-1"><a href="#four">Message me ! <i
+                                    class="fa-solid fa-arrow-right" id="home-box-icon"></i></a></button>
+                        <button class="btn" id="button-2"><a href="">Download CV <i class="fa-solid fa-download"
+                                    id="home-box-icon"></i></a></button>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/abhay-singh-gautam" class="icon-1"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="" class="icon-2"><i class="fa-brands fa-github"></i></a>
+                        <a href="" class="icon-2"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/_abhay_singh_gautam/" class="icon-2"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="two">
+        <div id="box2">
+            <div id="about-box-1">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="three">
+        <div id="box3">
+            <div id="skill-box-1">
+                <h3>--- SKILLS ---</h3>
+                <div id="skill-box-2">
+                    <div id="skill-box-3">
+                        <div id="skill-box-4" class="html"></div>
+                        <hr>
+                        <p>HTML</p>
+                    </div>
+                    <div id="skill-box-3">
+                        <div id="skill-box-4" class="css"></div>
+                        <hr>
+                        <p>CSS</p>
+                    </div>
+                    <div id="skill-box-3">
+                        <div id="skill-box-4" class="js"></div>
+                        <hr>
+                        <p>JS</p>
+                    </div>
+                    <div id="skill-box-3">
+                        <div id="skill-box-4" class="c"></div>
+                        <hr>
+                        <p>C</p>
+                    </div>
+                    <div id="skill-box-3">
+                        <div id="skill-box-4" class="cpp"></div>
+                        <hr>
+                        <p>C++</p>
+                    </div>
+                    <div id="skill-box-3">
+                        <div id="skill-box-4" class="python"></div>
+                        <hr>
+                        <p>PYTHON</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="four">
+        <div class="box4">
+            <!-- <div id="contact-box-1"> -->
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-titel">
+                    <h2>Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="0f809a24-ba10-49fe-ade1-29cae23f7004">
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit<i class="fa-solid fa-arrow-right"></i></button>
+            </form>
+            <div class="contact-right">
+                <img src="msg.png" alt="">
+            </div>
+            <!-- </div> -->
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".typing-text-script", {
+            strings: ["WEB DEVELOPER", "FRONTEND DEVELOPER", "GAMER..."],
+            typeSpeed: 80,
+            backSpeed: 80,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>
